@@ -1,20 +1,16 @@
-# Shared Configuration for Brizy Shields
+if SHIELD_BRIZY_LEFT
+
 config ZMK_KEYBOARD_NAME
     default "Brizy"
-
-config ZMK_SPLIT
-    default y
-
-# Specific Configuration for Brizy Left Shield
-if SHIELD_BRIZY_LEFT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-# Specific Configuration for Brizy Right Shield
-if SHIELD_BRIZY_RIGHT
-# No additional specific configurations for the right shield
+if SHIELD_BRIZY_LEFT || SHIELD_BRIZY_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
