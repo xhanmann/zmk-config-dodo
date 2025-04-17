@@ -2,7 +2,17 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    chosen {
+  },
+  "ws2812": {
+    "pin": "GP16",
+    "driver": "vendor"
+  },
+  "rgblight": {
+    "led_count": 1,
+    "layers": {
+      "enabled": true
+    
+chosen {
         zmk,physical-layout = &layout;
     };
 
