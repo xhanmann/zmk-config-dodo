@@ -1,3 +1,6 @@
+# This file defines default configuration settings for the BRIZY shield.
+# Ensure compatibility with central and split roles.
+
 if SHIELD_BRIZY_LEFT
 
 config ZMK_KEYBOARD_NAME
