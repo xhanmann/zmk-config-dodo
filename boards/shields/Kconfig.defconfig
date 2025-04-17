@@ -1,7 +1,7 @@
 if SHIELD_BRIZY_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Brizy"
+    default "brizy"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
