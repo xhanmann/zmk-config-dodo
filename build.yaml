@@ -19,6 +19,6 @@
 ---
 include:
     - board: nice_nano_v2
-      shield: Brizy_left
+      shield: Brizy_left  # Left half of the Brizy keyboard
     - board: nice_nano_v2
-      shield: Brizy_right
+      shield: Brizy_right # Right half of the Brizy keyboard
